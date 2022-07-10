@@ -1,5 +1,5 @@
 <h1 align="center">
-  ◻️ <b>Frontend Mentor - NFT preview card component</b>
+  🖼️ <b>Frontend Mentor - NFT preview card component</b>
 </h1>
 
 <p align="center">
