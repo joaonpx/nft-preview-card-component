@@ -9,6 +9,7 @@
 :root {
   --primary-color: hsl(215, 51%, 70%);
   --secondary-color: hsl(178, 100%, 50%);
+  --secondary-color-hover: hsla(178, 100%, 50%, 0.5);
 
   --bg-main: hsl(217, 54%, 11%);
   --bg-card: hsl(216, 50%, 16%);
@@ -59,12 +60,30 @@ body {
   margin-bottom: 2rem;
 }
 
-/* .overlay {
-  background-color: var(--secondary-color);
+.overlay {
+  opacity: 0;
+
+  width: 28rem;
+  height: 28rem;
+
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  z-index: 1;
+  transition: opacity 200ms;
+
+  cursor: pointer;
 }
 
-.nft-image:hover .overlay {
-} */
+.nft-image-container:hover .overlay {
+  background: var(--secondary-color-hover);
+
+  opacity: 1;
+}
 
 h1 a {
   color: var(--light);
