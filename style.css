@@ -1,0 +1,184 @@
+/* ======================== geral ==================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(215, 51%, 70%);
+  --secondary-color: hsl(178, 100%, 50%);
+
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --light: hsl(0, 0%, 100%);
+
+  font-size: 62.5%; /* 10px = 1rem */
+}
+
+body {
+  background: var(--bg-main);
+
+  font-family: 'Outfit', sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ======================== card ==================================== */
+
+.card {
+  background: var(--bg-card);
+  color: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15rem;
+
+  border-radius: 1.5rem;
+  /* box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.2); */
+}
+
+.card-content {
+  margin: 2.5rem;
+}
+
+/* ======================== header ==================================== */
+
+.nft-image {
+  width: 28rem;
+
+  border-radius: 1rem;
+
+  margin-bottom: 2rem;
+}
+
+/* .overlay {
+  background-color: var(--secondary-color);
+}
+
+.nft-image:hover .overlay {
+} */
+
+h1 a {
+  color: var(--light);
+
+  font-size: 2.1rem;
+  text-decoration: none;
+
+  transition: color 200ms;
+}
+
+h1 a:hover {
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+
+  margin-top: 1.5rem;
+}
+
+/* ======================== section nft-info ==================================== */
+
+.nft-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.nft-value {
+  color: var(--secondary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.coin {
+  margin-right: 0.8rem;
+}
+
+.nft-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.clock {
+  margin-right: 0.8rem;
+}
+
+hr {
+  width: 28rem;
+
+  border: 0.1rem solid var(--line);
+}
+
+/* ======================== section user-info ==================================== */
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: initial;
+}
+
+.user-info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-avatar {
+  width: 3.2rem;
+
+  border: 0.1rem solid var(--light);
+  border-radius: 2rem;
+
+  margin-right: 1.5rem;
+}
+
+.user-info p a {
+  color: var(--light);
+
+  text-decoration: none;
+
+  margin-left: 0.5rem;
+
+  transition: color 200ms;
+}
+
+.user-info p a:hover {
+  color: var(--secondary-color);
+}
+
+/* ======================== footer ==================================== */
+
+.attribution {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+
+  text-decoration: none;
+}
