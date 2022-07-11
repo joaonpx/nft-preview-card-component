@@ -1,9 +1,9 @@
 <h1 align="center">
-  🖼️ <b>Frontend Mentor - NFT preview card component</b>
+  🖼️ <b>NFT preview card component</b>
 </h1>
 
 <p align="center">
-  <img alt="Frontend Mentor - NFT preview card component" src="./design/desktop-preview.jpg" width="100%">
+  <img alt="NFT preview card component" src="./design/desktop-preview.jpg" width="100%">
 </p>
 
 ## 🚀 Built with
@@ -17,7 +17,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## 🔍 Demo
 
-- **[Frontend Mentor | NFT preview card component](https://nftpreviewcardcomponent.vercel.app/)**
+- **[NFT preview card component](https://nftpreviewcardcomponent.vercel.app/)**
 
 ## Author
 
